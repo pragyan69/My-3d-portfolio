@@ -17,7 +17,7 @@ const App=() =>{
           <Experience/>
           <Tech/>
           <Works/>
-          <Feedbacks/>
+          {/* <Feedbacks/> */}
           <div>
             <Contact/>
             <StarsCanvas/>

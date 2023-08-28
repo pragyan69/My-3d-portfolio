@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import avax from "./avax.png"
+import pay from "./pay.png"
+import marketplace from "./marketplace.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  avax,
+  pay,
+  marketplace
 };

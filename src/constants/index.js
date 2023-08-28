@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    avax,
+    pay,
+    marketplace
   } from "../assets";
   
   export const navLinks = [
@@ -116,57 +119,35 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Metaverse Ventures Limited",
+      company_name: "",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2023 - July 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Solana Collective",
+      company_name: "Solana",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Serving as a collective member at Solana Collective, a group of Discord-based enthusiasts committed to community growth.",
+"Actively participating in community discussions to identify opportunities for Solana's expansion and improvement.",
+"Crafting and publishing insightful content on social media platforms to educate and engage the Solana community.",
+"Collaborating with members to curate high-quality resources, tutorials, and articles about Solana and blockchain technology.",
+"Providing timely updates and insights into Solana developments, fostering greater community engagement and understanding."
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
+  
   ];
   
   const testimonials = [
@@ -198,9 +179,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "BlockPlay",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "It is NFT based token game , here users can buy the cards that are NFTs from before and can play based on the amount of tokens they have in stake. The person at the highest no. of tokens at the end will be decleared as winner.",
       tags: [
         {
           name: "react",
@@ -215,13 +196,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: avax,
+      source_code_link: "https://github.com/pragyan69/blockplay",
     },
     {
-      name: "Job IT",
+      name: "PAY",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "This is a decentralised payment system in the polygon test network , here people can pay from one account to another. This platform also accepts token swap over a variety of lot of tokens.",
       tags: [
         {
           name: "react",
@@ -236,20 +217,20 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: pay,
+      source_code_link: "https://github.com/pragyan69/Decentralised-Pay",
     },
     {
-      name: "Trip Guide",
+      name: "MARKETPLACE",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A well versed marketplace where people can BUY, SELL and CREATE NFTs.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "solidity",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +238,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: marketplace,
+      source_code_link: "https://github.com/pragyan69/MARKETPLACE",
     },
   ];
   
